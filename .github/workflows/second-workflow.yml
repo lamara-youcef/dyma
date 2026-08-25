@@ -1,0 +1,8 @@
+name: second  workflow  
+on: [push]
+jobs:
+  say-hello:
+    runs-on: ubuntu-22.04
+    steps:
+      - run : ls
+    
